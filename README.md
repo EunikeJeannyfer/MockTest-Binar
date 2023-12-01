@@ -9,12 +9,13 @@ ENDPOINT yang dibuat :
 3. /updateUsers/:id --> digunakan untuk update data user dengan id tertentu 
 4. /login --> digunakan untuk login halaman website dan mendapatkan token untuk fitur autentikasi 
 5. /register --> digunakan untuk register 
-6. /getTodo
-7. /updateTodo/:id
-8. /addTodo
-9. /getTodo/:id  
-10. /login untuk load halaman login.ejs
+6. /getTodo --> untuk mendapatkan seluruh data to do yang telah diinput 
+7. /updateTodo/:id --> update data to do tertentu berdasarkan id  
+8. /addTodo --> menambahkan sebuah to do yang baru 
+9. /getTodo/:id  --> mendapatkan data to do tertentu berdasarkan id
+10. /login untuk load halaman login.ejs 
 11. /register untuk load halaman register.ejs
+12. /docs --> untuk akses API docummentation
 
 
 Jika dilakukan login melalui website, maka akan diperoleh token dan juga todo user tersebut. 
