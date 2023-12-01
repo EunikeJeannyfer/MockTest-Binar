@@ -112,10 +112,16 @@ module.exports = {
         delete user.password 
         const token = await JWTsign(user)
 
+        const todo = await await prisma.toDo.findFirst({
+            where: {
+                id_user : user.id
+            }
+        })
+
         return res.status(201).json({
             status: "Success!",
             message: "Berhasil Login!",
-            data: { user, token }
+            data: { todo, token }
         })
     },
     registerForm: async (req, res, next) => {

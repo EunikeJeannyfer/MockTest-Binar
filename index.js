@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 const routers = require('./router')
 
 const path = require('path')
@@ -19,6 +19,6 @@ app.use(routers)
 app.get('/', (req, res) => res.send('Hello, berikut adalah mock test binar CDP'))
 app.use('/docs', swaggerUI.serve, swaggerUI.setup(swaggerJSON))
  
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
     console.log(`Example app listening at http://localhost:${port}`)
 });

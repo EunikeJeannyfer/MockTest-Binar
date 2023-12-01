@@ -10,6 +10,6 @@ router.put('/updateUsers/:id', auth, controller.users.update)
 router.post('/addUsers', auth, controller.users.create)
 
 router.post('/login', controller.users.login)
-router.post('/registerForm', controller.users.registerForm)
+router.post('/register', controller.users.registerForm)
 
 module.exports = router
