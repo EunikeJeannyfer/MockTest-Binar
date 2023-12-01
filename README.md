@@ -19,3 +19,5 @@ ENDPOINT yang dibuat :
 
 Jika dilakukan login melalui website, maka akan diperoleh token dan juga todo user tersebut. 
 Register juga dapat dilakukan melalui website
+
+Link Deploy : https://mocktest-binar.up.railway.app/
