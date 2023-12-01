@@ -1,0 +1,22 @@
+
+<h2>Register</h2>
+<form action="/registerForm" method="post">
+    <div>
+        <label for="nama">Full Name:</label>
+        <input type="text" id="nama" name="nama" required>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" minlength="6" id="password" name="password" required>
+    </div>
+    <div>
+        <input type="submit" value="Register">
+    </div>
+    <div> 
+        <a href="/login"> Sudah punya akun? </a>
+    </div>
+</form>
