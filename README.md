@@ -17,5 +17,5 @@ ENDPOINT yang dibuat :
 11. /register untuk load halaman register.ejs
 
 
-Jika dilakukan login melalui website, maka akan diperoleh token dan juga todo user tersebut
+Jika dilakukan login melalui website, maka akan diperoleh token dan juga todo user tersebut. 
 Register juga dapat dilakukan melalui website
